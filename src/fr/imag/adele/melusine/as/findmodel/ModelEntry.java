@@ -1,4 +1,4 @@
-/*
+/* 
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
  * distributed with this work for additional information
@@ -22,24 +22,21 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
+
 public interface ModelEntry {
 
 	String getName();
-
+	
 	String getDomainName();
 
-	String getRootPath();
-
-	URL getURL() throws IOException;
-
 	URL getEntry(String path) throws IOException;
-
-	// ModelEntry[] getPartModelEntry(String kind);
+	
+	//ModelEntry[] getPartModelEntry(String kind);
 
 	ModelEntry[] list();
-
+	
 	ModelEntry getSubEntry(String path);
-
+	
 	File getFile() throws UnsupportedOperationException;
-
+	
 }

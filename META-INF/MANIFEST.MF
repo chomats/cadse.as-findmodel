@@ -8,8 +8,7 @@ Bundle-Localization: plugin
 Bundle-ClassPath: .
 Eclipse-LazyStart: false
 Export-Package: fr.imag.adele.melusine.as.findmodel;version="2.2.1"
-Import-Package: fr.imag.adele.melusine.as.findmodel;version="2.2.1",
- fr.imag.adele.packageinfo;version="1.0.0"
+Import-Package: fr.imag.adele.melusine.as.findmodel;version="2.2.1"
 Created-By: envsam
 Bundle-Description: Bundle fr.imag.adele.cadse.as.melusine.findmodel
 

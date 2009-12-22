@@ -1,14 +1,15 @@
 Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: fr.imag.adele.cadse.as.melusine.findmodel
-Bundle-SymbolicName: fr.imag.adele.cadse.as.melusine.findmodel;singleton:=true
+Export-Package: fr.imag.adele.melusine.as.findmodel
+Built-By: chomats
+Tool: Bnd-0.0.357
+Bundle-Name: fr.imag.adele.cadse.as.findmodel
+Created-By: Apache Maven Bundle Plugin
 Bundle-Vendor: Adele/LIG/ Grenoble University, France
-Bundle-Version: 2.2.1.qualifier
-Bundle-Localization: plugin
-Bundle-ClassPath: .
-Eclipse-LazyStart: false
-Export-Package: fr.imag.adele.melusine.as.findmodel;version="2.2.1"
-Import-Package: fr.imag.adele.melusine.as.findmodel;version="2.2.1"
-Created-By: envsam
-Bundle-Description: Bundle fr.imag.adele.cadse.as.melusine.findmodel
+Build-Jdk: 1.6.0_17
+Bundle-Version: 2.3.0.SNAPSHOT
+Bnd-LastModified: 1260990950245
+Bundle-ManifestVersion: 2
+Import-Package: fr.imag.adele.melusine.as.findmodel
+Bundle-DocURL: http://www-adele.imag.fr/
+Bundle-SymbolicName: fr.imag.adele.cadse.as.findmodel
 

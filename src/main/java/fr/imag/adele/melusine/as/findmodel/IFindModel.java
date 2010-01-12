@@ -25,10 +25,6 @@ package fr.imag.adele.melusine.as.findmodel;
 */
 public interface IFindModel {
 
-	/**
-	    @generated
-	*/
-	String AS_ID = "AS.Melusine.FindModel";
 
 	/** The Constant MODEL_PREFIX. */
 	public static final String MODEL_PREFIX = "Model.";
@@ -92,7 +88,5 @@ public interface IFindModel {
 	 *                has more one model")
 	 */
 	public ModelEntry findModelEntry(String domainName) ;
-
-	
 	
 }

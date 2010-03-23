@@ -73,20 +73,4 @@ public interface IFindModel {
 	 */
 	public ModelEntry[] findModelEntries(String domainName, CheckModel check);
 	
-
-	/**
-	 * find the list of the model for the domain domainName.
-	 * 
-	 * @param domainName
-	 *            the name of the domain
-	 * 
-	 * @return An entry of model.
-	 * 
-	 * @exception IllegalArgumentException(domainName+"
-	 *                Model not found")
-	 * @exception IllegalArgumentException(domainName+"
-	 *                has more one model")
-	 */
-	public ModelEntry findModelEntry(String domainName) ;
-	
 }
